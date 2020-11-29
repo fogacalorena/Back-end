@@ -39,20 +39,20 @@ $cont = 0;
 if ($a == $b) #são iguais
 {
     echo "<div class='container'>";
-    echo "<div class='box'>";
-    echo "<div class='card text-center text-white bg-danger mb-3' >";
-    echo "<div class='card-body'>";
-    echo  "<h5 class='card-title'>ERRO!";
-    echo "</h5>";
-    echo  "<p class='card-text'>Valores iguais não são aceitos, insira valores diferentes!";
-    echo  "</p>";
-    echo "</div>";
-    echo "<div class='card-footer text-muted' >";
-    echo  "<a href='/Github/Back-end/lista/exerc04/exerc04_entrada.html' class='btn btn-dark btn-lg btn-block' type='submit' > Voltar";
-    echo "</a>";
-    echo "</div>";
-    echo "</div>";
-    echo "</div>";
+        echo "<div class='box'>";
+            echo "<div class='card text-center text-white bg-danger mb-3' >";
+                echo "<div class='card-body'>";
+                    echo  "<h5 class='card-title'>ERRO!";
+                    echo "</h5>";
+                    echo  "<p class='card-text'>Valores iguais não são aceitos, insira valores diferentes!";
+                    echo  "</p>";
+                echo "</div>";
+                echo "<div class='card-footer text-muted' >";
+                    echo  "<a href='/Github/Back-end/lista/exerc04/exerc04_entrada.html' class='btn btn-dark btn-lg btn-block' type='submit' > Voltar";
+                    echo "</a>";
+                echo "</div>";
+            echo "</div>";
+        echo "</div>";
     echo "</div>";
 } else #analisa quem é o maior
 {
@@ -136,3 +136,4 @@ if ($a == $b) #são iguais
     }
 }
 echo "</body>";
+?>
